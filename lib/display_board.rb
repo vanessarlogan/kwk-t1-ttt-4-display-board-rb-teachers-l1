@@ -6,5 +6,6 @@ puts " #{board[0]} | #{board[1]} | #{board[2]}"
 
 end
 
+board_new = ["X","","","","","","","",""]
 
-board = ["X","","","","","","","",""]
+display_board(board_new)
