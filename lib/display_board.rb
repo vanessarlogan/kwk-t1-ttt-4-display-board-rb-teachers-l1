@@ -10,9 +10,7 @@ puts " #{board[6]} | #{board[7]} | #{board[8]}"
 
 end
 
-board_new = [" "," "," "," "," "," "," "," "," "]
-
-display_board(board_new)
+display_board([" "," "," "," "," "," "," "," "," "])
 display_board([" "," "," "," ","X"," "," "," "," "])
 display_board(["O"," "," "," "," "," "," "," "," "])
 display_board(["O"," "," "," ","X"," "," "," "," "])
